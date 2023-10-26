@@ -14,11 +14,11 @@ on:
 
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni
-  DEVICE: m33x
-  DT_LINK: https://github.com/xgodyt9/android-recovery-tree-m33
-  DT_PATH: device/samsung/m33x
+  DEVICE: a3core
+  DT_LINK: https://github.com/KaizoXstore/a3core_tree_recovery
+  DT_PATH: device/samsung/a2core
   TARGET: recoveryimage
-  TZ: Europe/London
+  TZ: Europe
 
 jobs:
   build:
